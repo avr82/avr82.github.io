@@ -1,0 +1,42 @@
+body {
+  font family: "Helvetica", "Arial", sans-seriff;
+}
+h1,
+h2,
+h3,{
+  font-family: "PT Seriff", "Times", serif;
+}
+a:link {
+  color:darkorange;
+}
+a:visited {
+  color:green;
+}
+
+}
+a:hover {
+  background-color: rgb(255, 196, 137); /*orange*/
+}
+
+section {
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color:rgb(250, 160, 122); /*salmon*/
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0:auto;
+}
+#box {
+  background-color: #ddd;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom:20px;
+  margin-right: 20px;
+  border: 4px solid,#333
+}
+header {
+  background-color: rgb (255, 136, 17); /*orange*/
+}
+h1}
+  color: rgb (255, 120, 10);
