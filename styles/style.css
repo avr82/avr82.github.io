@@ -60,6 +60,18 @@ section {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  max-width: 960px;
+  background-color:rgb(255,248,220);
+  margin: 5px;
+  margin-bottom: 8px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+}
+
+section {
+  padding: 20px;
 }
 header p {
   line-height: 1;
