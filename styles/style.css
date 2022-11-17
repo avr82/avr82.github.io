@@ -12,11 +12,14 @@ a:link {
   color: rgb(0, 100, 0);
 }
 a:visited {
-  color: rgb(47, 90, 79); /*olive green*/
+  color: #800080; /*purple*/
 }
-}
+
 a:hover {
   background-color: rgb(255, 196, 137); /*orange*/
+}
+a: active{
+  color:#FFFF00 
 }
 
 h1 {
