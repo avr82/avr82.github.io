@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
 body {
   font-family: "Oswald", "Bebas Neue", sans-seriff;
+  font-size: 18px;
 }
 a:link {
   color: rgb(0, 100, 0);
@@ -15,8 +16,6 @@ a:hover {
   background-color: rgb(255, 196, 137); /*orange*/
 }
 
-}
-
 h1 {
   color: rgb(139,0, 0); /*maroon*/
   font-family: "Bebas Neue", "Oswald", sans-serif;
@@ -28,6 +27,14 @@ h2 {
 }
 h3 {
   color: rgb(178, 34, 34);
+}
+
+p {
+  line-height: 1.5;
+}
+figcaption {
+  font-size: 14px;
+  font-style: italic;
 }
 
 p, li {
