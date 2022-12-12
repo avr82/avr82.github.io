@@ -13,29 +13,34 @@ a:link {
   color: rgb(0, 100, 0);
 }
 a:visited {
-  color: #800080; /*purple*/
+  color: #EE82EE; /*purple*/
 }
 
 a:hover {
   background-color: rgb(255, 196, 137); /*orange*/
 }
 a: active{
-  color:#FFFF00
+  color:#DA70D6
 }
 
 h1 {
-  color: rgb(139,0, 0); /*maroon*/
-  font-family: "Bebas Neue", "Oswald", sans-serif;
+  color: rgb(72,61,139); /*sea green*/
+  font-family: "Roboto Condensed", "PT Serif", sans-serif;
 }
 
 h2 {
-  color: rgb(0, 100, 0); /*green*/
-  font-family: "Bebas Neue", "Oswald", sans-serif;
+  color: rgb(0,0,205); /*green*/
+  font-family: "Roboto Condensed", "PT Serif", sans-serif;
 }
 h3 {
-  color: rgb(210,105,30);
+  color: rgb(0,59,170);
 }
 
+li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-bottom: 13px;
+}
 p {
   line-height: 1.5;
 }
@@ -59,15 +64,15 @@ p, li {
 section {
   margin-bottom: 15px;
   padding: 15px;
-  background-color:rgb(255, 239, 213); /*light papaya*/
-  border-left: 4px solid rgb(222,164, 96);
+  background-color:rgb(175,238,238); /*light papaya*/
+  border-left: 4px solid rgb(70,130,180);
 }
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 960px;
-  background-color:rgb(255,248,220);
+  background-color:rgb(65,105,225);
   margin: 5px;
   margin-bottom: 8px;
   padding-top: 5px;
