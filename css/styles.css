@@ -7,13 +7,43 @@ body {
   max-width: 960px;
   min-width: 500px;
   margin: 0 auto;
+  padding:0
+}
+
+header {
+  margin: 20px;
+  padding: 10px;
+}
+section{
+
+  margin: 20px;
+  display: flew;
+  flex-direction: row;
+}
+div {
+  background: rgb(173,216,230);
+  display: inline-block;
+  width: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  margin-right: 10px;
+}
+section div {
+  background: rgb(135,206,235)
+}
+footer {
+  background:rgb(25,25,112);
 }
 
 a:link {
   color: rgb(0, 100, 0);
 }
 a:visited {
-  color: #EE82EE; /*purple*/
+  color: rgb(153,50,204); /*purple*/
 }
 
 a:hover {
@@ -31,7 +61,9 @@ h1 {
 h2 {
   color: rgb(0,0,205); /*green*/
   font-family: "Roboto Condensed", "PT Serif", sans-serif;
+  
 }
+
 h3 {
   color: rgb(0,59,170);
 }
