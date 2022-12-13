@@ -11,8 +11,8 @@ body {
 }
 
 header {
-  margin: 20px;
-  padding: 10px;
+  margin: 10px;
+  padding: 0px;
 }
 section{
   margin: 20px;
@@ -68,6 +68,10 @@ h3 {
 
 h4{
   color: rgb(0,0,205);
+}
+footer{
+  background: rgb(224,255,255);
+  margin: 20px;
 }
 li {
   display: inline-block;
