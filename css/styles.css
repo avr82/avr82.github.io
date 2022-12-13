@@ -1,5 +1,5 @@
 /*General*/
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
 body {
   font-family: "Roboto Condensed", "PT Serif", sans-serif;
@@ -15,7 +15,6 @@ header {
   padding: 10px;
 }
 section{
-
   margin: 20px;
   display: flew;
   flex-direction: row;
@@ -26,7 +25,7 @@ div {
   width: auto;
 }
 ul{
-  margin: 0;
+  margin: 30px;
   padding: 0;
 }
 li{
@@ -55,19 +54,21 @@ a: active{
 
 h1 {
   color: rgb(72,61,139); /*sea green*/
-  font-family: "Roboto Condensed", "PT Serif", sans-serif;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 h2 {
   color: rgb(0,0,205); /*green*/
-  font-family: "Roboto Condensed", "PT Serif", sans-serif;
-  
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 h3 {
   color: rgb(0,59,170);
 }
 
+h4{
+  color: rgb(0,0,205);
+}
 li {
   display: inline-block;
   margin-right: 20px;
